@@ -3,7 +3,7 @@ import "./ExpenseItem.css";
 function ExpenseItem() {
   const expenseDate = new Date(2022, 2, 28);
   const expenseTitle = "ice cream";
-  const expenseAmount = 5.00;
+  const expenseAmount = 5.0;
 
   return (
     <div className="expense-item">
